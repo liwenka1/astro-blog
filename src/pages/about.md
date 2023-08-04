@@ -46,5 +46,5 @@ title: "About"
 你可以通过 [Email](mailto:2020583117@qq.com)  或者 [微信公众号](https://weixin.sogou.com/weixin?type=1&query=kk%E6%83%B3%E5%BD%93%E7%A8%8B%E5%BA%8F%E5%91%98) 联系我
 
 <div>
-  <img src="/assets/weixin.jpg" class="sm:w-1/3 float-left" alt="coding dev illustration">
+  <img src="/assets/weixin.jpg" class="sm:w-1/3 float-left" alt="kk想当程序员">
 </div>
