@@ -22,7 +22,7 @@ canonicalURL: ""
 前端地址：[react-music](https://github.com/liwenka1/react-music)<br />后端地址：[NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 <a name="eFze0"></a>
 ### 预览图
-![推荐-dark.png](/public/assets/reactMusic/home-dark.png)![推荐-light.png](/public/assets/reactMusic/home-light.png)
+![推荐-dark.png](/assets/reactMusic/home-dark.png)![推荐-light.png](/assets/reactMusic/home-light.png)
 <a name="X7Sa2"></a>
 ## 技术选型
 react@18 + vite@4 + react-router@6 + zustand + tailwindcss + shadcn/ui + axios + react-query
@@ -42,7 +42,7 @@ registry=https://registry.npmmirror.com
 pnpm i
 pnpm run dev
 ```
-![01.png](/public/assets/reactMusic/01.png)
+![01.png](/assets/reactMusic/01.png)
 <a name="fvLW2"></a>
 ## 代码规范
 <a name="a84ZM"></a>
@@ -51,7 +51,7 @@ pnpm run dev
 ```
 npm init @eslint/config
 ```
-![02.png](/public/assets/reactMusic/02.png)
+![02.png](/assets/reactMusic/02.png)
 <a name="SY3VR"></a>
 ### Prettier
 我们通常利用 ESLint 检测代码风格代码规范，而代码格式化使用 Prettier<br />安装 Prettier

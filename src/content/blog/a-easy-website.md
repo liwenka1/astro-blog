@@ -33,8 +33,8 @@ canonicalURL: ""
 <a name="mBT0p"></a>
 ## 效果图
 <p align="center">
-  <img src="/public/assets/aEasyWebsite/next-web-nav-pc.png"  alt="next-web-nav-pc">
-  <img src="/public/assets/aEasyWebsite/next-web-nav-phone.png"  alt="next-web-nav-phone">
+  <img src="/assets/aEasyWebsite/next-web-nav-pc.png"  alt="next-web-nav-pc">
+  <img src="/assets/aEasyWebsite/next-web-nav-phone.png"  alt="next-web-nav-phone">
 </P>
 
 <p align="center"> 基于 <b>Next.js</b> 的前端导航网站 </p>
