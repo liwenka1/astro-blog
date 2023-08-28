@@ -3,7 +3,7 @@ author: 李文凯
 pubDatetime: 2023-08-20T17:03:24+08:00
 title: 从零开始的Web端React音乐播放器（一）
 postSlug: react-music-01
-featured: true
+featured: false
 draft: false
 tags:
   - React + Vite
