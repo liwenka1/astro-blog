@@ -47,17 +47,13 @@ JavaScript 分为单行注释和多行注释。
 这些都是简单的字面量。
 
 ```js
-12; // 数字12
-1.2(
-	// 数字1.2
-	"hello world"
-)(
-	// 字符串
-	"Hi"
-); // 字符串
-true; // 布尔值
-false; // 布尔值
-null; // 无对象
+12 // 数字12
+1.2 // 数字1.2
+("hello world") // 字符串
+("Hi") // 字符串
+true // 布尔值
+false // 布尔值
+null // 无对象
 ```
 
 ## 标识符和保留字
@@ -69,11 +65,11 @@ null; // 无对象
 标识符就是一个名字。在 JavaScript 中，通常用于在 JavaSCript 代码中命名常量、变量、属性、函数和类。以下都是合法的标识符：
 
 ```js
-i;
-my_name;
-v13;
-_dummy;
-$str;
+i
+my_name
+v13
+_dummy
+$str
 ```
 
 ### 保留字
@@ -105,8 +101,8 @@ enum implements interface package private protected public
 JavaScript 程序是使用 Unicode 字符集编写的，因此在字符串和注释中可以使用任意 Unicode 字符。
 
 ```js
-const Π = 3.14;
-const α = "阿尔法";
+const Π = 3.14
+const α = "阿尔法"
 ```
 
 ### Unicode 转义序列
@@ -114,15 +110,15 @@ const α = "阿尔法";
 Unicode 转义序列以 \u 开头。后跟 4 为十六制数字（包括大写或小写的字母 A~F ）或包括在一对花括号内的 1~6 位十六制数字。Unicode 转义序列可以出现在 JavaScript 字符串字面量、正则表达式字面量和标识符中（不能出现在关键字中）。
 
 ```js
-let café = 1; // 使用 Unicode 字符 'é' 定义一个变量
-café; // =>1 使用转义序列访问这个变量
-café; // =>1 使用转义序列的另一种形式
+let café = 1 // 使用 Unicode 字符 'é' 定义一个变量
+caf\u{e9} // =>1 使用转义序列访问这个变量
+cafe\u{301} // =>1 使用转义序列的另一种形式
 ```
 
 JavaScript 的早期版本只支持 4 位数字转义序列。带花括号的版本是 ES6 新增的，目的是为了更好地支持大于 16 位的 Unicode 码点，比如表情符号：
 
 ```js
-console.log("\u{1f600}"); // 打印出一个 😀
+console.log("\u{1f600}") // 打印出一个 😀
 ```
 
 Unicode 转义序列也可以出现在注释中，但因为注释会被忽略，所以注释中的转义序列会被当做 ASCII 字符处理，不会被解释为 Unicode。
@@ -132,8 +128,8 @@ Unicode 转义序列也可以出现在注释中，但因为注释会被忽略，
 Unicode 允许用多种编码方式表示同一个字符。
 
 ```js
-const café = 1; // 这个变量名为 "caf\u{e9}"
-const café = 2; // 这个变量名为 "cafe\u{301}"
+const café = 1 // 这个变量名为 "caf\u{e9}"
+const café = 2 // 这个变量名为 "cafe\u{301}"
 ```
 
 Unicode 标准为所有字符定义了首选编码并规定了归一化例程，用于把文本转换为适合比较的规范形式。JavaScript 假定自己解释的源代码已经归一化，它自己不会执行任何归一化。如果想在 JavaScript 程序中使用 Unicode 字符，应该保证使用自己的编辑器或者其他工具对自己的源代码执行 Unicode 归一化，以防其中包含看起来一样但实际不同的标识符。
@@ -144,25 +140,24 @@ JavaScript 使用分号（;）分隔语句。但在 JavaScript 中，如果两�
 
 ```js
 // 可以省略
-a = 3;
-b = 4;
+a = 3
+b = 4
 
 // 分号是必须的
-a = 3;
-b = 3;
+a = 3; b = 3;
 ```
 
 但 JavaScript 并非任何时候都把换行符当作分号，而只是在不隐式添加分号就无法解析代码的情况下才这么做。
 
 ```js
-let a;
-a = 3;
-console.log(a);
+let a
+a
+=
+3
+console.log(a)
 
 // JavaScript将以上代码解释为：
-let a;
-a = 3;
-console.log(a);
+let a; a = 3; console.log(a);
 ```
 
 之所以把第一个换行符当作分号，是因为如果没有分号，JavaScript 就无法解析代码 let a a。第二个 a 本身是一个独立的语句，但 JavaScript 并没有把第二个换行符当作分号，因为它还可以继续解析更长的语句 a = 3;。
@@ -170,7 +165,8 @@ console.log(a);
 这些语句终止规则会导致某些意外情形。
 
 ```js
-let y = x + f(a + b).toString();
+let y = x + f
+(a + b).toString()
 
 // 由于第二行的圆括号可以被解释为第一行 f 的调用，所以 JavaScript 将这两行代码解释为：
 let y = x + f(a + b).toString();
@@ -191,12 +187,11 @@ JavaScript 在不能把第二行解析为第一行的连续部分时，对换行
 
 ```js
 // 如果你这么写
-return;
-true;
+return
+true
 
 // JavaScript 假设你的意图是：
-return;
-true;
+return; true;
 
 // 但你的意图可能是：
 return true;
