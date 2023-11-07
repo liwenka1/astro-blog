@@ -4,7 +4,7 @@ pubDatetime: 2023-10-22T19:06:24+08:00
 title: 《JavaScript 权威指南》犀牛书阅读（二）
 postSlug: JavaScript-The-Definitive-Guide-02
 featured: true
-draft: false
+draft: true
 tags:
   - JavaScript
   - 阅读

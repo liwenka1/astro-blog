@@ -141,3 +141,9 @@ export const SOCIALS: SocialObjects = [
 		active: false,
 	},
 ];
+
+export const COMMENT = {
+	comment: true,
+	serverURL: "https://comment.liwenkai.asia/",
+	dark: 'html[data-theme="dark"]',
+};
