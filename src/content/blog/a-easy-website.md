@@ -40,10 +40,8 @@ canonicalURL: ""
 
 ## 效果图
 
-<p align="center">
-  <img src="/assets/aEasyWebsite/next-web-nav-pc.png"  alt="next-web-nav-pc">
-  <img src="/assets/aEasyWebsite/next-web-nav-phone.png"  alt="next-web-nav-phone">
-</P>
+[![pilhinJ.png](https://z1.ax1x.com/2023/11/07/pilhinJ.png)](https://imgse.com/i/pilhinJ)
+[![pilhCX4.png](https://z1.ax1x.com/2023/11/07/pilhCX4.png)](https://imgse.com/i/pilhCX4)
 
 <p align="center"> 基于 <b>Next.js</b> 的前端导航网站 </p>
 <a name="bGKju"></a>

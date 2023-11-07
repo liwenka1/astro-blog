@@ -28,7 +28,8 @@ canonicalURL: ""
 
 ### 预览图
 
-![推荐-dark.png](/assets/reactMusic/home-dark.png)![推荐-light.png](/assets/reactMusic/home-light.png)
+[![pilhhDJ.md.png](https://z1.ax1x.com/2023/11/07/pilhhDJ.md.png)](https://imgse.com/i/pilhhDJ)
+[![pilhfu4.md.png](https://z1.ax1x.com/2023/11/07/pilhfu4.md.png)](https://imgse.com/i/pilhfu4)
 <a name="X7Sa2"></a>
 
 ## 技术选型
@@ -57,7 +58,7 @@ pnpm i
 pnpm run dev
 ```
 
-![01.png](/assets/reactMusic/01.png)
+[![pilhcCV.md.png](https://z1.ax1x.com/2023/11/07/pilhcCV.md.png)](https://imgse.com/i/pilhcCV)
 <a name="fvLW2"></a>
 
 ## 代码规范
@@ -72,7 +73,7 @@ pnpm run dev
 npm init @eslint/config
 ```
 
-![02.png](/assets/reactMusic/02.png)
+[![pilhy40.md.png](https://z1.ax1x.com/2023/11/07/pilhy40.md.png)](https://imgse.com/i/pilhy40)
 <a name="SY3VR"></a>
 
 ### Prettier

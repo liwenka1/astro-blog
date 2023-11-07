@@ -23,8 +23,8 @@ canonicalURL: ""
 
 ## 预览图
 
-![verifyLogin.png](/assets/reactMusic/verifyLogin.png)
-![qrLogin.png](/assets/reactMusic/qrLogin.png)
+[![pilh2gU.md.png](https://z1.ax1x.com/2023/11/07/pilh2gU.md.png)](https://imgse.com/i/pilh2gU)
+[![pilhg3T.md.png](https://z1.ax1x.com/2023/11/07/pilhg3T.md.png)](https://imgse.com/i/pilhg3T)
 
 ## 简单分析
 
